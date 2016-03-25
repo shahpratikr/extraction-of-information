@@ -1,0 +1,27 @@
+{
+	"url":"http://www.flipkart.com.*",
+	"productDetail": 
+	{
+		"Title":".title",
+		"Rating":".pp-big-star"
+	},
+	"reviewDetail":
+	{
+		"Selectors":
+		{
+			"Iterator":".review-list"
+		},
+		"Fields":
+		{
+			"Title":".line.fk-font-normal.bmargin5.dark-gray",
+			"AuthorName":".load-user-widget.fk-underline",
+			"Rating":".fk-stars",
+			"Date":".date.line.fk-font-small",
+			"Text":".review-text"
+		}
+	},
+	"time":1.0,
+	"postMethod":
+	{
+	}
+}

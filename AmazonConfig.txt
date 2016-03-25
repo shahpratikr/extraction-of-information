@@ -1,0 +1,28 @@
+{
+	"url":".*amazon.com.*",
+	"productDetail": 
+	{
+		"Title":"h1 a",
+		"Rating":".asinReviewsSummary"
+	},
+	"reviewDetail":
+	{
+		"Selectors":
+		{
+			"Iterator":"[style=margin-left:0.5em;]"
+		},
+		"Fields":
+		{
+			"Title":"[style=vertical-align:middle;] b",
+			"AuthorName":"div[style=margin-bottom:0.5em;] div[style=float:left;] a",
+			"Rating":"[style=margin-right:5px;]",
+			"Date":"[style=vertical-align:middle;] nobr",
+			"Text":".reviewText"
+		}
+	},
+	"time":3.0,
+	"postMethod":
+	{
+		"split":","
+	}
+}

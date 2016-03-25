@@ -1,0 +1,28 @@
+{
+	"url":"",
+	"productDetail": 
+	{
+		"Title":"",
+		"Rating":""
+	},
+	"reviewDetail":
+	{
+		"Selectors":
+		{
+			"Iterator":""
+		},
+		"Fields":
+		{
+			"Title":"",
+			"AuthorName":"",
+			"Rating":"",
+			"Date":"",
+			"Text":""
+		}
+	},
+	"time":"",
+	"postMethod":
+	{
+		"postRating":""
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"url":"http://www.epinions.com.*",
+	"productDetail": 
+	{
+		"Title":"h1",
+		"Rating":"[itemprop~=ratingValue]"
+	},
+	"reviewDetail":
+	{
+		"Selectors":
+		{
+			"Iterator":".review_info",
+			"ReviewLink":"h3 a",
+			"ProsRE":".*user_review_summary_only(.*)",
+			"ConsRE":".*pros:(.*)"
+		},
+		"Fields":
+		{
+			"Title":"h2.title_gray",
+			"AuthorName":"a[rel=author]",
+			"Rating":"#single_review_area span[itemprop=reviewRating]",
+			"Date":"#single_review_area meta[itemprop=datePublished]",
+			"Text":".user_review_full p",
+			"Pros":"h3",
+			"Cons":"h3"
+		}
+	},
+	"time":0.0,
+	"postMethod":
+	{
+		"split":"\\n",
+		"postRating":"content"
+	}
+}
